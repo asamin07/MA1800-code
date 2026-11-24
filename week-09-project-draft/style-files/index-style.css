@@ -1,0 +1,79 @@
+html{
+
+
+    font-size: 100%;
+
+}
+
+
+body{
+
+    font-family: monospace;
+    background:white;
+
+}
+
+h1{
+
+
+    font-size: 100%;
+    margin: 25px 0 10px 0;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid yellowgreen;
+    border-style: groove;
+}
+
+#content{
+
+    width: 600px;
+    margin: 50px auto;
+
+}
+
+#article{
+
+
+    min-width: 300px;
+    font-size: 1.6rem;
+}
+
+.article-image{
+
+    width: 80%;
+    margin: 20px 10% 5px 10%;
+    border: 4px groove gold;
+}
+
+.caption{
+
+    width: 80%;
+    margin:10px 10% 20px 10%;
+    text-align: center;
+    font-style: italic;
+}
+
+#tray{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.tray-item{
+
+    flex: 1 1 auto;
+    border: 2px solid yellow;
+    padding: 15px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
